@@ -5,8 +5,39 @@ WSP COMPONENT LIBRARY STYLESHEET
 
 
 
-/* HEADER SPECIFIC ======================================== */
+body {
+	 background-image:url(../images/background.jpg);
+	 top right: no-repeat; 
+	 background-attachment:fixed;
+	 font-family: 'Lato', sans-serif;
+}
 
-/* ABOUT SPECIFIC ======================================== */
 
-/* COMPONENTS SPECIFIC ======================================== */
+#main {
+	height: auto;
+	width: 70%;
+	background-color: #FFF;	
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.text {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about {
+	text-align:center;	
+}
+
+
+p {
+color:	#707070;
+}
+
