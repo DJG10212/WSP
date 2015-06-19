@@ -3,6 +3,88 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+body {
+	font-family: 'Lato', sans-serif;	
+}
 
-/* HEADER ======================================== */
+section {
+	background-image:url(bg.jpg);
+	background-repeat:no-repeat;
+	height:638px;
+	text-align:center;
+	color:#fff;
+}
+
+
+img {
+    border: 3px solid #fff;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    width: 90px;
+	margin-top:100px;
+}
+
+
+h2 {
+	font-size:24px;
+	margin:26px 0 7px 0;
+	font-weight: 700;
+    line-height: 1.1;
+}
+
+
+p {
+	font-size: 21px;
+	line-height:1.5;
+	
+}
+
+p + P {
+	  color:#1fd7d2;
+}
+
+
+ul {
+	width:250px;
+	display: table;
+    list-style: none;
+    font-size: 14px;
+    margin: 22px auto;
+    padding-bottom:25px;
+}
+
+
+li:first-of-type {
+	border-left: 2px solid rgba(255,255,255,0.2);
+}
+
+li {
+    border: 1px solid rgba(255,255,255,0.2);
+    border-style: solid none;
+    border-right: 2px solid rgba(255,255,255,0.2);
+    display: table-cell;
+    margin: 0;
+    padding: 18px 10px;
+    text-align: center;
+    line-height: 1.5;
+    font-size:14px;
+    color:rgba(255,255,255,0.6);
+}
+
+
+strong {
+	font-weight:400;	
+}
+
+
+a {
+	width:250px;
+	text-decoration:none;
+	color:#fff;
+	font-size:18px;
+    padding:16px 98px;
+	border:1px solid #dadada;
+	font-weight:700;
+	line-height: 1.33;
+    border-radius: 6px;
+}
