@@ -28,6 +28,7 @@ p {
 
 .left {
 	padding-right:100px;
+	margin-top:115px;
 }
 
 form {
@@ -143,7 +144,7 @@ strong {
 	font-size:18px;
 	font-weight:400;
 	color:#fff;
-	margin-bottom:0;
+	margin-bottom:22px;
 }
 
 /*link styling*/
