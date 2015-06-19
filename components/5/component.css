@@ -6,3 +6,27 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+body {
+	width:1440px;
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+h1 {
+	margin:5px 0 10px;
+	font-size:48px;
+	line-height:1.625;
+	text-align:center;
+	background-image:url(line.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	margin-bottom:45px;
+}
+
+img{
+	width:24.8%;
+}
