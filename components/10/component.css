@@ -3,6 +3,135 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	line-height:20px;
+}
 
-/* HEADER ======================================== */
+
+
+
+
+
+footer {
+	width:100%;
+	background-color:#323232;
+	border-top: 5px solid #e1472f;
+	color: #969595;
+	z-index:1;
+	padding-top:40px;
+}
+
+
+
+.footer-center {
+	width:1120px;
+	margin: 0 auto;
+}
+
+
+
+article {
+	width: calc(100% / 2);
+	float:left;
+	max-width:550px;
+    padding-bottom:75px;
+}
+
+
+img {
+	padding-top:20px;
+}
+
+
+section {
+	clear:both;
+	height:42px;
+	z-index:2;
+	padding-top:12px;
+	background-color:#252525;
+}
+
+
+
+aside{
+	float:left;
+	position: relative;
+}
+
+aside:last-of-type{
+	float:right;
+}
+
+
+
+
+/*text styling*/
+
+h3{
+	font-size: 16px;
+    color: #fff;
+}
+
+ span{
+	 display:inline;
+	border-bottom:1px dotted #6b6b6b;
+	padding-bottom:30px;
+}
+
+a{
+	color:#fff;
+}
+
+
+ul {
+	float:right;
+}
+
+ li {
+	display:inline-block;
+	color: #6b6b6b;
+}
+
+h5 { 
+ color:rgba(0,0,0,0.00);
+}
+
+
+
+
+
+
+
+/*social icons*/
+
+#rss {
+	background-image:url(rss.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+#fb {
+	background-image:url(facebook.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+#twitter {
+	background-image:url(twitter.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+#flickr {
+	background-image:url(flickr.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+#google {
+	background-image:url(google.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}

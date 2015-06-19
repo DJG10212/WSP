@@ -3,6 +3,116 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	background-color:#F3F3F3;
+	width:1140px;
+	margin: 0 auto;
+	color:#808080;
+}
+
+
+
+/*columns*/
+article {
+	margin-top:150px;
+	text-align:center;
+	width: calc(100% / 3);
+	float:left;
+	border:1px solid #e6e6e6;
+	padding:80px 35px;
+	max-width: 350px;
+	height:489px;
+	margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+article:nth-of-type(2){
+	background-color:#FFFFFF;
+}
+
+article:hover {
+	background-color:#FFFFFF;
+	-o-transition: .4s;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+
+
+/* text styling*/
+
+p:nth-of-type(1) {
+	clear:both;
+}
+
+p {
+	font-size:14px;
+	line-height:21px;
+	text-align:center;
+	width: calc(100% / 3);
+	float:left;
+	max-width: 350px;
+	margin-left: 15px;
+    margin-right: 15px;
+	margin-top:15px;
+}
+
+
+h1 {
+	color:#f64747;
+	font-size:64px;
+	font-weight:300;
+	margin-bottom:10px;
+}
+
+
+h2 {
+	display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+	font-size:15px;
+    margin-bottom: 20px;	
+}
+
+
+li {
+	line-height:26px;
+	font-weight:400;
+}
+
+ul{
+	margin-bottom:75px;	
+}
+
+a {
+	font-family: 'Montserrat', sans-serif;
+	font-size:13px;
+	letter-spacing:1.5px;
+	padding: 15px 36px;
+	border-radius:5px;
+	text-transform:uppercase;
+	border:1px solid #f64747;
+    color:#f64747;
+}
+
+a:hover {
+	background-color:#f64747;
+	color:#FFFFFF;
+	-o-transition: .4s;
+    -ms-transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
