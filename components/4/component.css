@@ -6,3 +6,75 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+
+
+body {
+	width:1140px;
+	margin: 0 auto;
+}
+
+
+
+
+#column4 {
+	column-width:285px;
+	column-count:4;
+	-webkit-column-count:4;
+	-moz-column-count:4;
+	text-align:center;
+}
+
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	text-align:center;
+	font-size:36px;
+	margin-bottom:10px;
+	line-height:40px;
+	color:#3c3c3c;
+		
+}
+
+
+p {
+	font-family: 'Roboto Slab', serif;	
+	color: #999;
+	text-align:center;
+	margin-bottom:30px;
+	position:relative;
+	font-size:13.5px;
+	margin:0 0 15px;
+	line-height:24px;
+}
+
+
+.icon1 {
+	background-image:url(icon1.PNG);
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+.icon2 {
+	background-image:url(icon2.PNG);
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+.icon3 {
+	background-image:url(icon3.PNG);
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+.icon4 {
+	background-image:url(icon4.PNG);
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+
+h3 {
+	padding-top:120px;
+}
