@@ -3,6 +3,79 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
+
+
+body {
+	width: 1140px;
+	margin: 0 auto;	
+	font-family: 'Open Sans', sans-serif;
+	color:#808080;
+    line-height:26px;	
+}
+
+
+
+
+article{
+	padding-top:150px;
+	width: 560px;
+	float:left;
+	padding-left:15px;
+    padding-right:15px;
+}
+
+
+/*Left side*/
+
+
+
+p {
+	font-size:15px;
+}
+
+
+p + p {
+	margin-top:25px;
+}
+
+
+
+
+
+
+/*Right side*/
+
+span {
+	float:right;	
+}
+
+
+
+h4 {
+	background-repeat:no-repeat;
+	background-position:bottom;
+	margin-bottom:20px;
+	padding-bottom:15px;
+	color:#adadad;
+}
+
+
+h4:nth-child(1) {
+	background-image:url(100.png);	
+}
+
+h4:nth-child(2) {
+	background-image:url(90.png);
+}
+
+
+h4:nth-child(3) {
+	background-image:url(75.png);
+}
+
+
+h4:nth-child(4) {
+	background-image:url(50.png);
+}
+
