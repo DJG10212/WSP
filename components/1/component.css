@@ -4,6 +4,9 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 
+
+
+
 body {
 	font-family: 'Open Sans', sans-serif;	
 }
@@ -11,9 +14,43 @@ body {
 
 
 
-a {
-	color:#000000;	
+
+
+header {	
+	margin: 0 auto;
 }
+
+
+
+
+
+
+/*nav styling*/
+
+
+.border {
+    background-image:url(line.png);
+	background-repeat:no-repeat;
+	background-position-x: 0%;
+    background-position-y: 50%;
+}
+
+
+
+
+.active {
+	background-color:#e1472f;
+	border-left: none;
+	height:100px;
+}
+
+
+
+
+
+/*logo styling*/
+
+
 
 .logo {
 	float:left;
@@ -22,6 +59,16 @@ a {
 }
 
 
+
+
+
+
+/*text styling*/
+
+
+a {
+	color:#000000;	
+}
 
 li {
 	display:inline-block;	
@@ -33,23 +80,6 @@ li {
 	line-height:86px;	
 }
 
-
-
-.border {
-		background-image:url(line.png);
-	background-repeat:no-repeat;
-	background-position-x: 0%;
-  background-position-y: 50%;
-}
-
-
-
-
-.active {
-	background-color:#e1472f;
-	border-left: none;
-	height:100px;
-}
 
 .active a {
 	color:#FFFFFF;
@@ -63,10 +93,4 @@ ul {
 	padding-left: 50%;
 }
 
-header {	
-	margin: 0 auto;
-}
 
-
-span {
-}

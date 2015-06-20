@@ -57,7 +57,6 @@ section {
 
 aside{
 	float:left;
-	position: relative;
 }
 
 aside:last-of-type{
@@ -76,7 +75,7 @@ h3{
 }
 
  span{
-	 display:inline;
+	display:inline;
 	border-bottom:1px dotted #6b6b6b;
 	padding-bottom:30px;
 }
@@ -96,7 +95,7 @@ ul {
 }
 
 h5 { 
- color:rgba(0,0,0,0.00);
+   color:rgba(0,0,0,0.00);
 }
 
 

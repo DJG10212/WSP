@@ -15,16 +15,19 @@ body {
 
 
 
-#column4 {
-	column-width:285px;
-	column-count:4;
-	-webkit-column-count:4;
-	-moz-column-count:4;
+article {
+	width: calc(100% / 4);
 	text-align:center;
-	padding-top:40px;
+	float:left;
+	margin-top:40px;
+	max-width:280px;
 }
 
 
+
+
+
+/*text styling*/
 
 h3 {
 	font-family: 'Open Sans', sans-serif;	
@@ -50,10 +53,9 @@ h2 {
 
 p {
 	font-family: 'Roboto Slab', serif;	
-	color: #999;
+	color:#999;
 	text-align:center;
 	margin-bottom:30px;
-	position:relative;
 	font-size:13.5px;
 	margin:0 0 15px;
 	line-height:24px;
@@ -62,32 +64,6 @@ p {
 	background-position:bottom;
 	padding-bottom:40px;
 }
-
-
-.icon1 {
-	background-image:url(icon1.PNG);
-	background-repeat: no-repeat;
-	background-position:top;
-}
-
-.icon2 {
-	background-image:url(icon2.PNG);
-	background-repeat: no-repeat;
-	background-position:top;
-}
-
-.icon3 {
-	background-image:url(icon3.PNG);
-	background-repeat: no-repeat;
-	background-position:top;
-}
-
-.icon4 {
-	background-image:url(icon4.PNG);
-	background-repeat: no-repeat;
-	background-position:top;
-}
-
 
 h3 {
 	padding-top:120px;
@@ -108,4 +84,33 @@ a {
 
 p + p {
 	background-image:none;
+}
+
+
+
+
+/*icons*/
+
+#icon1 {
+	background-image:url(icon1.PNG);
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+#icon2 {
+	background-image:url(icon2.PNG);
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+#icon3 {
+	background-image:url(icon3.PNG);
+	background-repeat: no-repeat;
+	background-position:top;
+}
+
+#icon4 {
+	background-image:url(icon4.PNG);
+	background-repeat: no-repeat;
+	background-position:top;
 }

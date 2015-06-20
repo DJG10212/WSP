@@ -25,6 +25,9 @@ img {
 }
 
 
+
+/* text styling*/
+
 h2 {
 	font-size:24px;
 	margin:26px 0 7px 0;
@@ -43,6 +46,30 @@ p + P {
 	  color:#1fd7d2;
 }
 
+strong {
+	font-weight:400;	
+}
+
+
+
+
+/*"button" styling*/
+
+a {
+	width:250px;
+	text-decoration:none;
+	color:#fff;
+	font-size:18px;
+    padding:16px 98px;
+	border:1px solid #dadada;
+	font-weight:700;
+	line-height: 1.33;
+    border-radius: 6px;
+}
+
+
+
+/*list styling*/
 
 ul {
 	width:250px;
@@ -72,19 +99,4 @@ li {
 }
 
 
-strong {
-	font-weight:400;	
-}
 
-
-a {
-	width:250px;
-	text-decoration:none;
-	color:#fff;
-	font-size:18px;
-    padding:16px 98px;
-	border:1px solid #dadada;
-	font-weight:700;
-	line-height: 1.33;
-    border-radius: 6px;
-}

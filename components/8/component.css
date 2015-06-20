@@ -60,22 +60,23 @@ h4 {
 	color:#adadad;
 }
 
+/*background image lines*/
 
-h4:nth-child(1) {
+#line100 {
 	background-image:url(100.png);	
 }
 
-h4:nth-child(2) {
+#line90 {
 	background-image:url(90.png);
 }
 
 
-h4:nth-child(3) {
+#line75 {
 	background-image:url(75.png);
 }
 
 
-h4:nth-child(4) {
+#line50 {
 	background-image:url(50.png);
 }
 

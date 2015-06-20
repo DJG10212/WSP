@@ -14,21 +14,15 @@ section {
 	background-image:url(bg.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-attachment:fixed;
-	display:table;
 	width:100%;
 	height:400px;
 	min-height:100%;
-    vertical-align:middle;
     color:#fff;
 	text-align:center;
 }
 
-
-.overlay{
-	position:absolute;
-    left:0;
-    top:0;
+/*dot overlay*/
+#overlay{
     width:100%;
     height:400px;
     background-image:url(dot-pattern.png);
@@ -36,6 +30,9 @@ section {
 }
 
 
+
+
+/*text styling*/
 
 small {
 	font-family: 'Raleway', sans-serif;
@@ -64,5 +61,4 @@ p {
   text-align:center;
   border-radius:.25em;	
   text-transform:uppercase;
-
 }
