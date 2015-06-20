@@ -12,17 +12,9 @@ body {
 }
 
 
-
-
-
-
 header {	
 	margin: 0 auto;
 }
-
-
-
-
 
 
 /*nav styling*/
@@ -36,15 +28,11 @@ header {
 }
 
 
-
-
 .active {
 	background-color:#e1472f;
 	border-left: none;
 	height:100px;
 }
-
-
 
 
 
@@ -57,7 +45,6 @@ header {
 	padding-left:20%;
 	padding-top:10px;
 }
-
 
 
 
