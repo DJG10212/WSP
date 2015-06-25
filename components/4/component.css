@@ -50,15 +50,14 @@ h2 {
 		
 }
 
-h2:after {
+h2 + p:after {
 	background-color:rgb(50, 150, 220);
-	content:'';
-	position:absolute;
+	content:'';	
+	display:block;
 	height:2px;
 	width:30px;
-	margin:140px auto;
-	align-content:center;
-	margin-right:50%;
+	margin:0 auto;
+	margin-top:40px;
 }
 
 
