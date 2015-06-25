@@ -21,7 +21,7 @@ h1 {
 }
 
 h1:after {
-	border-top: 2px solid #000000;
+	background-color:#000000;
 	content:'';
 	position:absolute;
 	height:2px;

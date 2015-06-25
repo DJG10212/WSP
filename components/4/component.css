@@ -50,6 +50,17 @@ h2 {
 		
 }
 
+h2:after {
+	background-color:rgb(50, 150, 220);
+	content:'';
+	position:absolute;
+	height:2px;
+	width:30px;
+	margin:140px auto;
+	align-content:center;
+	margin-right:50%;
+}
+
 
 p {
 	font-family: 'Roboto Slab', serif;	
@@ -59,9 +70,6 @@ p {
 	font-size:13.5px;
 	margin:0 0 15px;
 	line-height:24px;
-	background-image:url(line.png);
-	background-repeat:no-repeat;
-	background-position:bottom;
 	padding-bottom:40px;
 }
 
@@ -82,9 +90,6 @@ a {
 	text-decoration:none;
 }
 
-p + p {
-	background-image:none;
-}
 
 
 
