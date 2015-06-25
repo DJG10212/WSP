@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-article {
+section {
 	float:left;
 }
 
@@ -25,9 +25,9 @@ p {
 
 /*Left Side Contents, Contact form*/
 
-article:first-of-type {
+section:first-of-type {
 	padding-right:100px;
-	margin-top:115px;
+	padding-top:115px;
 }
 
 form {
@@ -106,18 +106,12 @@ span {
 
 /* Right Side Contents*/ 
 
-article:last-of-type {
-	background-image:url(contact-bg.jpg);
+section:last-of-type {
+	background:url(contact-bg.jpg);
 	background-repeat:no-repeat;
 	vertical-align:middle;
 	line-height: 1.42857143;
 	background-size:cover;
-}
-
-
-/*add blue transparent layer*/
-#color {
-	background-color:rgba(21,190,183,.8);
 	padding:100px 100px 250px;
 	width:593.547px;
 	height:696px;
@@ -134,7 +128,7 @@ strong {
 }
 
 
-article:last-of-type p {
+section:last-of-type p {
 	font-size:18px;
 	font-weight:400;
 	color:#fff;
@@ -142,7 +136,7 @@ article:last-of-type p {
 }
 
 /*link styling*/
-article:last-of-type  a {
+section:last-of-type  a {
 	font-family: 'Open Sans', sans-serif;
 	font-size:30px;
 	color:#fff;

@@ -85,28 +85,28 @@ li {
 }
 
 /*list color styling*/
-.blue {
+.all {
 	background-color:#03acdc;
 	padding: 8px 20px;
 	margin: 4px 3px;
 	border-radius: 20px;
 }
 
-.yellow {
+.photographers {
 	background-color:#ffcc0e;
 	padding: 8px 20px;
 	margin: 4px 3px;
 	border-radius: 20px;
 }
 
-.purple {
+.psd{
 	background-color:#564bb5;
 	padding: 8px 20px;
 	margin: 4px 3px;
 	border-radius: 20px;
 }
 
-.green {
+.graphic {
 	background-color:#18e2ba;
 	padding: 8px 20px;
 	margin: 4px 3px;

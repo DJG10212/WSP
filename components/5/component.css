@@ -3,9 +3,7 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
 
-/* HEADER ======================================== */
 
 body {
 	width:1440px;
@@ -14,23 +12,26 @@ body {
 }
 
 
-
-
 h1 {
 	margin:5px 0 10px;
 	font-size:48px;
 	line-height:1.625;
 	text-align:center;
-	background-image:url(line.png);
-	background-repeat:no-repeat;
-	background-position:bottom;
-	margin-bottom:45px;
+}
+
+h1:after {
+	border-top: 2px solid #000000;
+	content:'';
+	position:absolute;
+	height:2px;
+	width:72px;
+	margin:80px auto;	
 }
 
 img{
-	width: calc(99.3% / 4);
-	margin:0px;
-	padding:0px;
-	outline:0px;
-	border:0px;
+	width: calc(100% / 4);
+	display:block;
+	padding-left:2px;
+	padding-top:2px;
+	float:left;
 }
