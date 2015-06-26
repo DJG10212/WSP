@@ -36,3 +36,27 @@ img{
 	padding-top:2px;
 	float:left;
 }
+
+
+
+@media screen and (max-width: 1440px) {
+body {
+	width:100%;
+}
+
+img{
+	width: calc(100% / 2);
+}
+	
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+img{
+	width: calc(100% / 1);
+}
+}
+

@@ -25,7 +25,6 @@ header {
 	content:'';
 	position:absolute;
 	height:40px;
-	width:1px;
 	margin-top:24px;
 	margin-left:auto;
 	margin-right:auto;
@@ -67,7 +66,8 @@ a {
 li {
 	display:inline-block;	
 	position:relative;
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font:13px/20px 'Open Sans', Open Sans, Helvetica, Arial, sans-serif;
 	font-weight:600;
 	color:#686868;

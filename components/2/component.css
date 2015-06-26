@@ -112,3 +112,48 @@ li {
 	margin: 4px 3px;
 	border-radius: 20px;
 }
+
+
+
+@media screen and (max-width: 1240px) {
+body {
+	width:100%;
+}
+article {
+	width: calc(100% / 2);
+}
+	
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+ul {
+	width: 100%;
+	margin:0 auto;
+	padding: 40px;
+}
+
+
+	
+	article {
+	width: calc(100% / 1);
+}
+}
+
+
+
+@media screen and (max-width: 660px) {
+li {
+	width:100%;
+}
+	
+}
+
+
+
+
+
+

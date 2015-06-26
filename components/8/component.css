@@ -17,7 +17,7 @@ body {
 
 
 
-article{
+section{
 	padding-top:150px;
 	width: 560px;
 	float:left;
@@ -55,28 +55,75 @@ span {
 h4 {
 	background-repeat:no-repeat;
 	background-position:bottom;
-	margin-bottom:20px;
 	padding-bottom:15px;
 	color:#adadad;
 }
 
 /*background image lines*/
 
-#line100 {
-	background-image:url(100.png);	
+.progress-bar {
+  position: relative;
+  height: 3px;
+  margin: 0 0 15px 0;
+  background: #c4c4c4;
+  width: 100%;
+  
 }
 
+#line100 {
+  width: 100%;
+  float:left;
+  display: block;
+  height: 100%;
+  background-color: #d3145a;
+}
+
+
+
 #line90 {
-	background-image:url(90.png);
+  width: 90%;
+  float:left;
+  display: block;
+  height: 100%;
+  background-color: #d3145a;
 }
 
 
 #line75 {
-	background-image:url(75.png);
+  width: 75%;
+  float:left;
+  display: block;
+  height: 100%;
+  background-color: #d3145a;
 }
 
 
 #line50 {
-	background-image:url(50.png);
+  width: 50%;
+  float:left;
+  display: block;
+  height: 100%;
+  background-color: #d3145a;
 }
+
+
+
+@media screen and (max-width: 1140px) {
+body {
+	width:90%;
+}
+
+section {
+	width:100%;
+}
+}
+
+
+@media screen and (max-width: 660px) {
+
+section {
+padding-top:50px;	
+}
+}
+
 

@@ -118,3 +118,36 @@ a {
 	background-repeat: no-repeat;
 	background-position:top;
 }
+
+
+
+
+
+@media screen and (max-width: 1140px) {
+body {
+	width:100%;
+}
+article {
+	width: calc(100% / 2);
+	text-align:center;
+	float:left;
+	margin-top:40px;
+	max-width:none;
+	
+}
+
+
+	
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+	article {
+	width: calc(100% / 1);
+}
+}
+
+
